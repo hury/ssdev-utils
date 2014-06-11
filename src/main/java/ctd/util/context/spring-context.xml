@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Sean220 (Sean220) -->
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dateBean" class="ctd.util.context.beans.DateBean"/>
+	<bean id="jvmStatBean" class="ctd.util.context.beans.JVMStatBean"/>
+	<bean id="topContext" class="ctd.util.context.Context">
+		<constructor-arg>
+			<map>
+				<entry>
+					<key><value>date</value></key>
+					<ref bean="dateBean"/>
+				</entry>
+				<entry>
+					<key><value>jvm</value></key>
+					<ref bean="jvmStatBean"/>
+				</entry>
+			</map>
+		</constructor-arg>
+	</bean>
+	<bean id="staticInitContext" class="ctd.util.context.Context">
+		<constructor-arg type="java.lang.String" value="server"/>
+		<constructor-arg ref="topContext"/>
+	</bean>
+</beans>

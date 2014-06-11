@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="Word.Document"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage" xmlns:th="http://www.thymeleaf.org">
+	<pkg:part pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:name="/_rels/.rels" pkg:padding="512">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId3" Target="docProps/app.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties"/>
+				<Relationship Id="rId2" Target="docProps/core.xml" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties"/>
+				<Relationship Id="rId1" Target="word/document.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:name="/word/_rels/document.xml.rels" pkg:padding="256">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId3" Target="settings.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings"/>
+				<Relationship Id="rId2" Target="styles.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"/>
+				<Relationship Id="rId1" Target="numbering.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering"/>
+				<Relationship Id="rId6" Target="theme/theme1.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"/>
+				<Relationship Id="rId5" Target="fontTable.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable"/>
+				<Relationship Id="rId4" Target="webSettings.xml" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings"/>
+				<Relationship th:each="img : ${images}" th:attr="Id='rid-' + ${img.id},Target='media/' + ${img.filename}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml" pkg:name="/word/document.xml">
+		<pkg:xmlData>
+			<w:document mc:Ignorable="w14 w15 wp14" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+				<w:body>
+					<m:div th:each="el : ${doc.rootElement.elements()}" >
+						<w:p th:substituteby="${el.name}" />
+					</m:div>
+				</w:body>
+			</w:document>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml" pkg:name="/word/webSettings.xml">
+		<pkg:xmlData>
+			<w:webSettings mc:Ignorable="w14 w15" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml">
+				<w:optimizeForBrowser/>
+				<w:allowPNG/>
+			</w:webSettings>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part th:substituteby="pkg-settings"/>
+	<pkg:part th:substituteby="pkg-theme"/>
+	<pkg:part th:substituteby="pkg-styles"/>
+	<pkg:part th:substituteby="pkg-numbering"/>
+	<pkg:part th:substituteby="pkg-fontTable"/>
+	<pkg:part th:substituteby="pkg-core-properties"/>
+	<pkg:part pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml" pkg:name="/docProps/app.xml" pkg:padding="256">
+		<pkg:xmlData>
+			<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+				<Template>Normal.dotm</Template>
+				<TotalTime>4</TotalTime>
+				<Pages>1</Pages>
+				<Words>43</Words>
+				<Characters>249</Characters>
+				<Application>Microsoft Office Word</Application>
+				<DocSecurity>0</DocSecurity>
+				<Lines>2</Lines>
+				<Paragraphs>1</Paragraphs>
+				<ScaleCrop>false</ScaleCrop>
+				<Company/>
+				<LinksUpToDate>false</LinksUpToDate>
+				<CharactersWithSpaces>291</CharactersWithSpaces>
+				<SharedDoc>false</SharedDoc>
+				<HyperlinksChanged>false</HyperlinksChanged>
+				<AppVersion>15.0000</AppVersion>
+			</Properties>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:compression="store" th:each="img : ${images}" th:attr="pkg:name='/word/media/' + ${img.filename},pkg:contentType=${img.contentType}">
+		<pkg:binaryData th:text="${img.base64}"></pkg:binaryData>
+	</pkg:part>
+</pkg:package>

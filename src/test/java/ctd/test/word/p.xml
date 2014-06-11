@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<w:p>
+	<w:pPr>
+		<w:jc th:attr="w:val=${el.attributeValue('align','left')}" />
+		<w:ind w:firstLine="420" w:firstLineChars="200" th:if="${el.attributeValue('indent')}"/>
+	</w:pPr>
+	<w:r th:if="${el.textOnly}">
+		<w:rPr>
+			<w:b th:if="${el.attributeValue('bold')}"/>
+			<w:color th:with="color=${el.attributeValue('color')}" th:attr="w:val=${color}"/>
+			<w:sz th:attr="w:val=${el.attributeValue('size','24')}"/>
+		</w:rPr>
+		<w:t th:text="${el.text}"></w:t>
+	</w:r>
+	<w:r th:unless="${el.textOnly}" th:each="span : ${el.elements()}">
+		<w:rPr>
+			<w:b th:if="${span.attributeValue('bold')}"/>
+			<w:color th:with="color=${span.attributeValue('color')}" th:attr="w:val=${color}"/>
+			<w:sz th:attr="w:val=${span.attributeValue('size','24')}"/>
+		</w:rPr>
+		<w:t th:text="${span.text}"></w:t>
+	</w:r>
+</w:p>
+

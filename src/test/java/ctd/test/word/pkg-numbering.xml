@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pkg:part pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml" pkg:name="/word/numbering.xml">
+	<pkg:xmlData>
+		<w:numbering mc:Ignorable="w14 w15 wp14" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+			<w:abstractNum w:abstractNumId="0">
+				<w:nsid w:val="23552897"/>
+				<w:multiLevelType w:val="multilevel"/>
+				<w:tmpl w:val="0409001D"/>
+				<w:lvl w:ilvl="0">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="425" w:left="425"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="1">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="567" w:left="992"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="2">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="567" w:left="1418"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="3">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="708" w:left="1984"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="4">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4.%5"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="850" w:left="2551"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="5">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4.%5.%6"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="1134" w:left="3260"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="6">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="1276" w:left="3827"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="7">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7.%8"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="1418" w:left="4394"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="8">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7.%8.%9"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:hanging="1700" w:left="5102"/>
+					</w:pPr>
+				</w:lvl>
+			</w:abstractNum>
+			<w:abstractNum w:abstractNumId="1">
+				<w:nsid w:val="248A04D4"/>
+				<w:multiLevelType w:val="multilevel"/>
+				<w:tmpl w:val="D80A99CC"/>
+				<w:lvl w:ilvl="0">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%1."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="720" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="720"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="1">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%2."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="1440" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="1440"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="2">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%3."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="2160" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="2160"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="3">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%4."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="2880" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="2880"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="4">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%5."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="3600" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="3600"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="5">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%6."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="4320" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="4320"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="6">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%7."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="5040" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="5040"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="7">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%8."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="5760" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="5760"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="8">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="decimal"/>
+					<w:lvlText w:val="%9."/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:tabs>
+							<w:tab w:pos="6480" w:val="num"/>
+						</w:tabs>
+						<w:ind w:hanging="720" w:left="6480"/>
+					</w:pPr>
+				</w:lvl>
+			</w:abstractNum>
+			<w:abstractNum w:abstractNumId="2">
+				<w:nsid w:val="4B6E7CB2"/>
+				<w:multiLevelType w:val="multilevel"/>
+				<w:tmpl w:val="04090029"/>
+				<w:lvl w:ilvl="0">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="chineseCountingThousand"/>
+					<w:pStyle w:val="1"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val="第%1章"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="1">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="2"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="2">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="3"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="3">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="4"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="4">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="5"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="5">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="6"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="6">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="7"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="7">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="8"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="8">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:pStyle w:val="9"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+			</w:abstractNum>
+			<w:abstractNum w:abstractNumId="3">
+				<w:nsid w:val="4E5300F1"/>
+				<w:multiLevelType w:val="multilevel"/>
+				<w:tmpl w:val="A2C04BB4"/>
+				<w:lvl w:ilvl="0">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="chineseCountingThousand"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val="第%1章"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="1">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="chineseCountingThousand"/>
+					<w:lvlText w:val="%2、"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="2">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="3">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="4">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="5">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="6">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="7">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="8">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+			</w:abstractNum>
+			<w:abstractNum w:abstractNumId="4">
+				<w:nsid w:val="6FB24F67"/>
+				<w:multiLevelType w:val="multilevel"/>
+				<w:tmpl w:val="004CD392"/>
+				<w:lvl w:ilvl="0">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="chineseCountingThousand"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val="第%1章"/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="1">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="2">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="3">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="4">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="5">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="6">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="7">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+				<w:lvl w:ilvl="8">
+					<w:start w:val="1"/>
+					<w:numFmt w:val="none"/>
+					<w:suff w:val="nothing"/>
+					<w:lvlText w:val=""/>
+					<w:lvlJc w:val="left"/>
+					<w:pPr>
+						<w:ind w:firstLine="0" w:left="0"/>
+					</w:pPr>
+				</w:lvl>
+			</w:abstractNum>
+			<w:num w:numId="1">
+				<w:abstractNumId w:val="4"/>
+			</w:num>
+			<w:num w:numId="2">
+				<w:abstractNumId w:val="2"/>
+			</w:num>
+			<w:num w:numId="3">
+				<w:abstractNumId w:val="3"/>
+			</w:num>
+			<w:num w:numId="4">
+				<w:abstractNumId w:val="2"/>
+			</w:num>
+			<w:num w:numId="5">
+				<w:abstractNumId w:val="1"/>
+			</w:num>
+			<w:num w:numId="6">
+				<w:abstractNumId w:val="0"/>
+			</w:num>
+		</w:numbering>
+	</pkg:xmlData>
+</pkg:part>

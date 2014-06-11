@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic class="XMLDictionary"> 
+  <item key="33" text="浙江省" mCode="1">
+  	<item key="3301" text="杭州市">
+  		<item key="330101" text="市辖区"/>
+  		<item key="330102" text="上城区"/>
+  		<item key="330103" text="下城区"/>
+  		<item key="330104" text="江干区"/>
+  		<item key="330105" text="拱墅区"/>
+  		<item key="330106" text="西湖区"/>
+  		<item key="330108" text="滨江区"/>
+  		<item key="330109" text="萧山区"/>
+  		<item key="330110" text="余杭区"/>
+  		<item key="330122" text="桐庐县"/>
+  		<item key="330127" text="淳安县"/>
+  		<item key="330182" text="建德县"/>
+  		<item key="330183" text="富阳县"/>
+  		<item key="330185" text="临安县"/>
+  	</item>
+  	<item key="3302" text="宁波市">
+  		<item key="330201" text="市辖区"/>
+  		<item key="330203" text="海曙区"/>
+  		<item key="330204" text="江东区"/>
+  		<item key="330205" text="江北区"/>
+  		<item key="330206" text="北仑区"/>
+  		<item key="330211" text="镇海区"/>
+  		<item key="330212" text="鄞州区"/>
+  		<item key="330225" text="象山县"/>
+  		<item key="330226" text="宁海县"/>
+  	</item>
+  </item>
+</dic>

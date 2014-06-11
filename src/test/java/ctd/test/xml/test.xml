@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="SystemUser" alias="SystemUser">
+  <item id="userId" alias="用户内码" type="int" not-null="1" generator="auto" pkey="true" display="0"/>
+  <item id="logonName" alias="登陆工号" type="string" length="50"/>
+  <item id="userName" alias="用户名称" type="string" length="50"/>
+  <item id="password" alias="用户密码" type="string" length="50"/>
+  <item id="jobtitle" alias="角色" type="string" length="20">
+ 
+  </item>
+  <item id="status" alias="状态" type="string" length="1">
+  	<dic id="userStatus"/>
+  </item>
+</entry>
